@@ -1,0 +1,22 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Webpage</title>
+</head>
+<body>
+    <h1>Welcome to the Main Webpage</h1>
+
+    <ul>
+        <li><a href="{% url 'base' %}">Home</a></li>
+        <li><a href="{% url 'users' %}">About users</a></li>
+        <li><a href="{% url 'blogs' %}">Blogs</a></li>
+        <li><a href="{% url 'blogdetails' %}">Blog details</a></li>
+        <li><a href="{% url 'categories' %}">Categories</a></li>
+        <li><a href="{% url 'comments' %}">Comments</a></li>
+    </ul>
+</body>
+</html>
